@@ -1,5 +1,5 @@
 import Cocoa
 
-let str = "Hello World!"
+let maximumNumberOfLoginAttempts = 10
 
-print(str)
+var currentLoginAttempt = 0

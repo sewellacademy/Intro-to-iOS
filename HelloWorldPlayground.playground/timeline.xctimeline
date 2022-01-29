@@ -2,5 +2,15 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/dylansewell/Desktop/Intro-to-iOS/HelloWorldPlayground.playground#CharacterRangeLen=68&amp;CharacterRangeLoc=13&amp;EndingColumnNumber=0&amp;EndingLineNumber=5&amp;StartingColumnNumber=0&amp;StartingLineNumber=1&amp;Timestamp=663544251.095314"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/dylansewell/Desktop/Intro-to-iOS/HelloWorldPlayground.playground#CharacterRangeLen=68&amp;CharacterRangeLoc=13&amp;EndingColumnNumber=0&amp;EndingLineNumber=5&amp;StartingColumnNumber=0&amp;StartingLineNumber=1&amp;Timestamp=663544251.095436"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>

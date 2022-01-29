@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20AEE59327A5C76800049548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEE59227A5C76800049548 /* AppDelegate.swift */; };
+		20AEE59527A5C76800049548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEE59427A5C76800049548 /* SceneDelegate.swift */; };
+		20AEE59727A5C76800049548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEE59627A5C76800049548 /* ViewController.swift */; };
+		20AEE59A27A5C76800049548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AEE59827A5C76800049548 /* Main.storyboard */; };
+		20AEE59C27A5C76A00049548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AEE59B27A5C76A00049548 /* Assets.xcassets */; };
+		20AEE59F27A5C76A00049548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AEE59D27A5C76A00049548 /* LaunchScreen.storyboard */; };
+		20AEE5AA27A5C76A00049548 /* DoctorBadgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEE5A927A5C76A00049548 /* DoctorBadgeTests.swift */; };
+		20AEE5B527A5C76A00049548 /* DoctorBadgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AEE5B427A5C76A00049548 /* DoctorBadgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20AEE5A627A5C76A00049548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20AEE58727A5C76800049548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20AEE58E27A5C76800049548;
+			remoteInfo = DoctorBadge;
+		};
+		20AEE5B127A5C76A00049548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20AEE58727A5C76800049548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20AEE58E27A5C76800049548;
+			remoteInfo = DoctorBadge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20AEE58F27A5C76800049548 /* DoctorBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AEE59227A5C76800049548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20AEE59427A5C76800049548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20AEE59627A5C76800049548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20AEE59927A5C76800049548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20AEE59B27A5C76A00049548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20AEE59E27A5C76A00049548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20AEE5A027A5C76A00049548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20AEE5A527A5C76A00049548 /* DoctorBadgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorBadgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AEE5A927A5C76A00049548 /* DoctorBadgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBadgeTests.swift; sourceTree = "<group>"; };
+		20AEE5AB27A5C76A00049548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20AEE5B027A5C76A00049548 /* DoctorBadgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorBadgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AEE5B427A5C76A00049548 /* DoctorBadgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorBadgeUITests.swift; sourceTree = "<group>"; };
+		20AEE5B627A5C76A00049548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20AEE58C27A5C76800049548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AEE5A227A5C76A00049548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AEE5AD27A5C76A00049548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20AEE58627A5C76800049548 = {
+			isa = PBXGroup;
+			children = (
+				20AEE59127A5C76800049548 /* DoctorBadge */,
+				20AEE5A827A5C76A00049548 /* DoctorBadgeTests */,
+				20AEE5B327A5C76A00049548 /* DoctorBadgeUITests */,
+				20AEE59027A5C76800049548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20AEE59027A5C76800049548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20AEE58F27A5C76800049548 /* DoctorBadge.app */,
+				20AEE5A527A5C76A00049548 /* DoctorBadgeTests.xctest */,
+				20AEE5B027A5C76A00049548 /* DoctorBadgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20AEE59127A5C76800049548 /* DoctorBadge */ = {
+			isa = PBXGroup;
+			children = (
+				20AEE59227A5C76800049548 /* AppDelegate.swift */,
+				20AEE59427A5C76800049548 /* SceneDelegate.swift */,
+				20AEE59627A5C76800049548 /* ViewController.swift */,
+				20AEE59827A5C76800049548 /* Main.storyboard */,
+				20AEE59B27A5C76A00049548 /* Assets.xcassets */,
+				20AEE59D27A5C76A00049548 /* LaunchScreen.storyboard */,
+				20AEE5A027A5C76A00049548 /* Info.plist */,
+			);
+			path = DoctorBadge;
+			sourceTree = "<group>";
+		};
+		20AEE5A827A5C76A00049548 /* DoctorBadgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				20AEE5A927A5C76A00049548 /* DoctorBadgeTests.swift */,
+				20AEE5AB27A5C76A00049548 /* Info.plist */,
+			);
+			path = DoctorBadgeTests;
+			sourceTree = "<group>";
+		};
+		20AEE5B327A5C76A00049548 /* DoctorBadgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20AEE5B427A5C76A00049548 /* DoctorBadgeUITests.swift */,
+				20AEE5B627A5C76A00049548 /* Info.plist */,
+			);
+			path = DoctorBadgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20AEE58E27A5C76800049548 /* DoctorBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AEE5B927A5C76A00049548 /* Build configuration list for PBXNativeTarget "DoctorBadge" */;
+			buildPhases = (
+				20AEE58B27A5C76800049548 /* Sources */,
+				20AEE58C27A5C76800049548 /* Frameworks */,
+				20AEE58D27A5C76800049548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorBadge;
+			productName = DoctorBadge;
+			productReference = 20AEE58F27A5C76800049548 /* DoctorBadge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20AEE5A427A5C76A00049548 /* DoctorBadgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AEE5BC27A5C76A00049548 /* Build configuration list for PBXNativeTarget "DoctorBadgeTests" */;
+			buildPhases = (
+				20AEE5A127A5C76A00049548 /* Sources */,
+				20AEE5A227A5C76A00049548 /* Frameworks */,
+				20AEE5A327A5C76A00049548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AEE5A727A5C76A00049548 /* PBXTargetDependency */,
+			);
+			name = DoctorBadgeTests;
+			productName = DoctorBadgeTests;
+			productReference = 20AEE5A527A5C76A00049548 /* DoctorBadgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20AEE5AF27A5C76A00049548 /* DoctorBadgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AEE5BF27A5C76A00049548 /* Build configuration list for PBXNativeTarget "DoctorBadgeUITests" */;
+			buildPhases = (
+				20AEE5AC27A5C76A00049548 /* Sources */,
+				20AEE5AD27A5C76A00049548 /* Frameworks */,
+				20AEE5AE27A5C76A00049548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AEE5B227A5C76A00049548 /* PBXTargetDependency */,
+			);
+			name = DoctorBadgeUITests;
+			productName = DoctorBadgeUITests;
+			productReference = 20AEE5B027A5C76A00049548 /* DoctorBadgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20AEE58727A5C76800049548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					20AEE58E27A5C76800049548 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					20AEE5A427A5C76A00049548 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 20AEE58E27A5C76800049548;
+					};
+					20AEE5AF27A5C76A00049548 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 20AEE58E27A5C76800049548;
+					};
+				};
+			};
+			buildConfigurationList = 20AEE58A27A5C76800049548 /* Build configuration list for PBXProject "DoctorBadge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20AEE58627A5C76800049548;
+			productRefGroup = 20AEE59027A5C76800049548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20AEE58E27A5C76800049548 /* DoctorBadge */,
+				20AEE5A427A5C76A00049548 /* DoctorBadgeTests */,
+				20AEE5AF27A5C76A00049548 /* DoctorBadgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20AEE58D27A5C76800049548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AEE59F27A5C76A00049548 /* LaunchScreen.storyboard in Resources */,
+				20AEE59C27A5C76A00049548 /* Assets.xcassets in Resources */,
+				20AEE59A27A5C76800049548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AEE5A327A5C76A00049548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AEE5AE27A5C76A00049548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20AEE58B27A5C76800049548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AEE59727A5C76800049548 /* ViewController.swift in Sources */,
+				20AEE59327A5C76800049548 /* AppDelegate.swift in Sources */,
+				20AEE59527A5C76800049548 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AEE5A127A5C76A00049548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AEE5AA27A5C76A00049548 /* DoctorBadgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20AEE5AC27A5C76A00049548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AEE5B527A5C76A00049548 /* DoctorBadgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20AEE5A727A5C76A00049548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20AEE58E27A5C76800049548 /* DoctorBadge */;
+			targetProxy = 20AEE5A627A5C76A00049548 /* PBXContainerItemProxy */;
+		};
+		20AEE5B227A5C76A00049548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20AEE58E27A5C76800049548 /* DoctorBadge */;
+			targetProxy = 20AEE5B127A5C76A00049548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20AEE59827A5C76800049548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AEE59927A5C76800049548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20AEE59D27A5C76A00049548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20AEE59E27A5C76A00049548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20AEE5B727A5C76A00049548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20AEE5B827A5C76A00049548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20AEE5BA27A5C76A00049548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansewell.ios.DoctorBadge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20AEE5BB27A5C76A00049548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansewell.ios.DoctorBadge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20AEE5BD27A5C76A00049548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorBadgeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansewell.ios.DoctorBadgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorBadge.app/DoctorBadge";
+			};
+			name = Debug;
+		};
+		20AEE5BE27A5C76A00049548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorBadgeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansewell.ios.DoctorBadgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorBadge.app/DoctorBadge";
+			};
+			name = Release;
+		};
+		20AEE5C027A5C76A00049548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorBadgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansewell.ios.DoctorBadgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorBadge;
+			};
+			name = Debug;
+		};
+		20AEE5C127A5C76A00049548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorBadgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansewell.ios.DoctorBadgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorBadge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20AEE58A27A5C76800049548 /* Build configuration list for PBXProject "DoctorBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AEE5B727A5C76A00049548 /* Debug */,
+				20AEE5B827A5C76A00049548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AEE5B927A5C76A00049548 /* Build configuration list for PBXNativeTarget "DoctorBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AEE5BA27A5C76A00049548 /* Debug */,
+				20AEE5BB27A5C76A00049548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AEE5BC27A5C76A00049548 /* Build configuration list for PBXNativeTarget "DoctorBadgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AEE5BD27A5C76A00049548 /* Debug */,
+				20AEE5BE27A5C76A00049548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AEE5BF27A5C76A00049548 /* Build configuration list for PBXNativeTarget "DoctorBadgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AEE5C027A5C76A00049548 /* Debug */,
+				20AEE5C127A5C76A00049548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20AEE58727A5C76800049548 /* Project object */;
+}
